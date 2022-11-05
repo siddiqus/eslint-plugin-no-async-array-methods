@@ -1,5 +1,7 @@
 # eslint-plugin-no-async-array-methods
 
+[![npm version](https://badge.fury.io/js/eslint-plugin-no-async-array-methods.svg)](https://badge.fury.io/js/eslint-plugin-no-async-array-methods)
+
 No async callback for Array methods forEach, map, filter, reduce, some, every
 
 ## Installation
