@@ -22,6 +22,8 @@ const notAllowedArrayMethods = [
   "filter",
   "some",
   "every",
+  "find",
+  "findIndex",
 ];
 
 const ruleTestersValids = notAllowedArrayMethods
