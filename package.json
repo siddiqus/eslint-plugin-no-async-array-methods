@@ -1,0 +1,45 @@
+{
+  "name": "eslint-plugin-no-async-array-methods",
+  "version": "0.0.0",
+  "description": "Estlint rule - no async callbacks for array methods",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Sabbir Siddiqui",
+    "email": "sabbir.m.siddiqui@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "array"
+  ],
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "release": "./scripts/release.sh"
+  },
+  "homepage": "https://github.com/siddiqus/eslint-plugin-no-async-array-methods#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siddiqus/eslint-plugin-no-async-array-methods"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
