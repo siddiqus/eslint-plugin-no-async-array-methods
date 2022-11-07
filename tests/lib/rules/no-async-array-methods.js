@@ -8,12 +8,8 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/no-async-array-methods"),
+var ruleGenerator = require("../../../lib/no-async-array-methods-generator"),
   RuleTester = require("eslint").RuleTester;
-
-//------------------------------------------------------------------------------
-// Tests
-//------------------------------------------------------------------------------
 
 const notAllowedArrayMethods = [
   "forEach",
@@ -25,6 +21,12 @@ const notAllowedArrayMethods = [
   "find",
   "findIndex",
 ];
+
+var rule = ruleGenerator(notAllowedArrayMethods);
+
+//------------------------------------------------------------------------------
+// Tests
+//------------------------------------------------------------------------------
 
 const ruleTestersValids = notAllowedArrayMethods
   .map((method) => {
