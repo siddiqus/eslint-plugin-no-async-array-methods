@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-async-array-methods",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Estlint rule - no async callbacks for array methods",
   "main": "index.js",
   "directories": {
